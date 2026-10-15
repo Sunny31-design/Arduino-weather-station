@@ -1,14 +1,14 @@
-# 🌡️ Arduino Weather Station
+* [Arduino Weather Station]
 
-A beginner-friendly Arduino project that measures **temperature and humidity** using a DHT11 sensor and displays the readings on a **16×2 I²C LCD**.
+My first Arduino project that measures **temperature and humidity** using a DHT11 sensor and displays the readings on a **16×2 I²C LCD**.
 
-## 📌 Project Overview
+* [Project Overview]
 
 This is my first embedded systems project. The system continuously reads temperature and humidity from the DHT11 sensor and displays the real-time values on the LCD.
 
 The same sensor readings are also printed to the Arduino Serial Monitor for debugging and monitoring.
 
-## 🛠️ Components Used
+* [Components Used]
 
 - Arduino Uno R3
 - DHT11 Temperature & Humidity Sensor
@@ -17,29 +17,27 @@ The same sensor readings are also printed to the Arduino Serial Monitor for debu
 - Jumper wires
 - USB cable
 
-## 🔌 Circuit Connections
+* [Circuit Connections]
 
-### DHT11 → Arduino Uno
+ . DHT11 → Arduino Uno
 
 | DHT11 | Arduino Uno |
-|---|---|
+
 | VCC | 5V |
 | DATA | D2 |
 | GND | GND |
 
-### I²C LCD → Arduino Uno
+ * [I²C LCD → Arduino Uno]
 
 | LCD | Arduino Uno |
-|---|---|
+
 | VCC | 5V |
 | GND | GND |
 | SDA | A4 |
 | SCL | A5 |
 
-## ⚙️ How It Works
-
+ *How It Works
 The DHT11 sensor measures:
-
 - Temperature
 - Relative humidity
 
@@ -48,22 +46,7 @@ The Arduino reads these values every 2 seconds and sends them to:
 1. The 16×2 I²C LCD
 2. The Serial Monitor
 
-### System Flow
-
-```text
-DHT11 Sensor
-     ↓
- Arduino Uno
-     ↓
- ┌───────────────┐
- ↓               ↓
-I²C LCD      Serial Monitor
- ↓
-Temperature &
-Humidity Display
-```
-
-## 💻 Software & Libraries
+ * [Software & Libraries]
 
 - Arduino IDE
 - Arduino C/C++
@@ -71,19 +54,16 @@ Humidity Display
 - LiquidCrystal_I2C library
 - DHT sensor library
 
-## 📺 Output
-
+ *Output
 The LCD displays information similar to:
-
-```text
+->text
 Temp: 28.5°C
 Humidity: 62%
 ```
 
 The Serial Monitor also prints the sensor readings at 9600 baud.
 
-## 🚀 Future Improvements
-
+ * [Future Improvements]
 Planned improvements for this project include:
 
 - ESP32-based Wi-Fi connectivity
@@ -92,33 +72,23 @@ Planned improvements for this project include:
 - Data logging
 - Additional environmental sensors
 
- ## 📷 Project Photos
+->  (Project Photos)
 
-### Complete Weather Station
+       Complete Weather Station
 ![Weather Station](IMG_20261014_193234_448.jpg)
-
-### Hardware Setup
+       Hardware Setup
 ![Hardware Setup](IMG_20261014_193247_028.jpg)
-
-### LCD Display
+       LCD Display
 ![LCD Display](IMG_20261014_193401_962.jpg)
 
- 
-## 📚 What I Learned
-
+ -> What I Learned
 Through this project I learned the basics of:
-
 - Arduino programming
-- Sensor interfacing
-- Digital sensor data acquisition
 - I²C communication
 - LCD interfacing
-- Serial communication
 - Basic embedded-system debugging
 - Hardware wiring and testing
 
-## 👨‍💻 Author
-
+->[Author]
 Sunny Rao
-
 This project was created as part of my hands-on learning journey in **Embedded Systems and Electronics**.
