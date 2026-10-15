@@ -1,14 +1,14 @@
-* [Arduino Weather Station]
+ # Arduino Weather Station
 
 My first Arduino project that measures **temperature and humidity** using a DHT11 sensor and displays the readings on a **16×2 I²C LCD**.
 
-* [Project Overview]
+## Project Overview
 
 This is my first embedded systems project. The system continuously reads temperature and humidity from the DHT11 sensor and displays the real-time values on the LCD.
 
 The same sensor readings are also printed to the Arduino Serial Monitor for debugging and monitoring.
 
-* [Components Used]
+## Components Used
 
 - Arduino Uno R3
 - DHT11 Temperature & Humidity Sensor
@@ -17,26 +17,20 @@ The same sensor readings are also printed to the Arduino Serial Monitor for debu
 - Jumper wires
 - USB cable
 
-* [Circuit Connections]
+## Circuit Connections
 
- . DHT11 → Arduino Uno
+## [I2C LCD -> Arduino uno]
+   GND = GND
+   VCC = 5V
+   SDA = A4
+   SCL = A5
 
-| DHT11 | Arduino Uno |
+ ## [DHT11 -> Arduino Uno]
+   Data = D2
+   VCC  = 5V
+   GND  = GND
 
-| VCC | 5V |
-| DATA | D2 |
-| GND | GND |
-
- * [I²C LCD → Arduino Uno]
-
-| LCD | Arduino Uno |
-
-| VCC | 5V |
-| GND | GND |
-| SDA | A4 |
-| SCL | A5 |
-
- *How It Works
+   ## How It Works
 The DHT11 sensor measures:
 - Temperature
 - Relative humidity
@@ -46,7 +40,7 @@ The Arduino reads these values every 2 seconds and sends them to:
 1. The 16×2 I²C LCD
 2. The Serial Monitor
 
- * [Software & Libraries]
+## Software & Libraries
 
 - Arduino IDE
 - Arduino C/C++
@@ -54,19 +48,22 @@ The Arduino reads these values every 2 seconds and sends them to:
 - LiquidCrystal_I2C library
 - DHT sensor library
 
- *Output
+ ## Output
 The LCD displays information similar to:
 ->text
-Temp: 28.5°C
-Humidity: 62%
-```
+Temp: 31.7°C
+Humidity: 58%
 
-![Complete Weather Station](IMG_20261014_193234_448.jpg)
+ ## Project Photos
 
-### Hardware Setup
+![Project photo](./IMG_20261014_193234_448.jpg)
 
-![Hardware Setup](IMG_20261014_193247_028.jpg)
+### Photo 1
+![Arduino weather station photo 1](./IMG_20261014_193234_448.jpg)
 
-### LCD Display
+### Photo 2
+![Arduino weather station photo 2](./IMG_20261014_193247_028.jpg)
 
-![LCD Display](IMG_20261014_193401_962.jpg)
+### Photo 3
+![Arduino weather station photo 3](./IMG_20261014_193401_962.jpg)
+ 
