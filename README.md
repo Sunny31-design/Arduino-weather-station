@@ -72,13 +72,18 @@ Planned improvements for this project include:
 - Data logging
 - Additional environmental sensors
 
-->  (Project Photos)
+ ## Project Photos
 
-       Complete Weather Station
- IMG_20261014_193234_448.jpg
-       Hardware Setup
+### Complete Weather Station
+
+![Complete Weather Station](IMG_20261014_193234_448.jpg)
+
+### Hardware Setup
+
 ![Hardware Setup](IMG_20261014_193247_028.jpg)
-       LCD Display
+
+### LCD Display
+
 ![LCD Display](IMG_20261014_193401_962.jpg)
 
  -> What I Learned
