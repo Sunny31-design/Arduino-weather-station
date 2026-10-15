@@ -61,21 +61,6 @@ Temp: 28.5°C
 Humidity: 62%
 ```
 
-The Serial Monitor also prints the sensor readings at 9600 baud.
-
- * [Future Improvements]
-Planned improvements for this project include:
-
-- ESP32-based Wi-Fi connectivity
-- Web-based weather dashboard
-- Remote monitoring
-- Data logging
-- Additional environmental sensors
-
- ## Project Photos
-
-### Complete Weather Station
-
 ![Complete Weather Station](IMG_20261014_193234_448.jpg)
 
 ### Hardware Setup
@@ -85,15 +70,3 @@ Planned improvements for this project include:
 ### LCD Display
 
 ![LCD Display](IMG_20261014_193401_962.jpg)
-
- -> What I Learned
-Through this project I learned the basics of:
-- Arduino programming
-- I²C communication
-- LCD interfacing
-- Basic embedded-system debugging
-- Hardware wiring and testing
-
-->[Author]
-Sunny Rao
-This project was created as part of my hands-on learning journey in **Embedded Systems and Electronics**.
