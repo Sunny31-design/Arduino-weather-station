@@ -75,7 +75,7 @@ Planned improvements for this project include:
 ->  (Project Photos)
 
        Complete Weather Station
-![Weather Station](IMG_20261014_193234_448.jpg)
+ IMG_20261014_193234_448.jpg
        Hardware Setup
 ![Hardware Setup](IMG_20261014_193247_028.jpg)
        LCD Display
