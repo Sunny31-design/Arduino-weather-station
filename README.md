@@ -45,7 +45,7 @@ The Arduino reads these values every 2 seconds and sends them to:
 - LiquidCrystal_I2C library
 - DHT sensor library
 
-## [Cpp]
+## [C++]
 ```
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
